@@ -5,7 +5,7 @@ setup(
     name="streamlit-keycloak-lex",
     version="1.0.0",
     author="Melih Sünbül",
-    author_email="Lund IT",
+    author_email="m.sunbul@lund-it.com",
     description="Keycloak authentication for Streamlit",
     long_description=(Path(__file__).parent / "README.md").read_text(),
     long_description_content_type="text/markdown",
