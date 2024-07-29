@@ -14,9 +14,10 @@ So far the component has not been tested in a wide variety of environments. So i
 Frontend authentication like this can only be done with clients that have their access type set to ‘public’ as their is no way to securely provide the client secret from the browser.
 
 ## Examples
+
 ```python
 from dataclasses import asdict
-from streamlit_keycloak import login
+from streamlit_keycloak_lex import login
 import streamlit as st
 
 

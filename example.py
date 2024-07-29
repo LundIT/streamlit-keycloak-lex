@@ -1,4 +1,4 @@
-from streamlit_keycloak import login
+from streamlit_keycloak_lex import login
 import streamlit as st
 
 st.title("Keycloak example")
