@@ -1,7 +1,7 @@
 from pathlib import Path
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+setup(
     name="streamlit-keycloak-lex",
     version="1.0.0",
     author="Melih Sünbül",
@@ -10,7 +10,7 @@ setuptools.setup(
     long_description=(Path(__file__).parent / "README.md").read_text(),
     long_description_content_type="text/markdown",
     url="https://github.com/LundIT/streamlit-keycloak-lex",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     include_package_data=True,
     classifiers=[],
     python_requires=">=3.7",
