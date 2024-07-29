@@ -2,7 +2,7 @@
 **Keycloak user authentication and single sign-on inside your Streamlit app**
 
 ## Installation
-`pip install streamlit-keycloak`
+`pip install streamlit-keycloak-lex`
 
 ## Usage
 Provide the URL to your Keycloak server, the realm and client and the component will perform the authentication when the app is rendered. First it will attempt to silently authenticate using single sign-on. If this fails, a dialog will appear from which you can open a popup to the Keycloak login page.
