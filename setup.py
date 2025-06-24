@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="streamlit-keycloak-lex",
-    version="1.0.3",
+    version="1.0.4",
     author="Melih Sünbül",
     author_email="m.sunbul@lund-it.com",
     description="Keycloak authentication for Streamlit",
